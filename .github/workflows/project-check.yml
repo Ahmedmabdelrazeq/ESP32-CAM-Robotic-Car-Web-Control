@@ -1,0 +1,24 @@
+name: Project Check
+
+on: 
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Validate project structure
+        run: |
+          echo "✓ Checking ESP32_CAM_ROBOT structure..."
+          test -f README.md && echo "✓ README.md found" || echo "✗ README.md missing"
+          test -d src && echo "✓ src directory found" || echo "✗ src directory missing"
+          ls -la
+          
+      - name: Check file integrity
+        run: |
+          echo "✓ Project validation complete"

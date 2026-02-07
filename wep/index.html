@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32-CAM Robot Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>ESP32-CAM Mobile Robot</h1>
+    <p class="subtitle">Live Video & Remote Control Dashboard</p>
+  </header>
+
+  <main class="dashboard">
+    <section class="video-section">
+      <img id="video-stream" src="" alt="Live Stream">
+    </section>
+
+    <section class="info-section">
+      <div class="card">
+        <h3>Ultrasonic Distance</h3>
+        <p id="distance-info">0 cm</p>
+      </div>
+
+      <div class="card">
+        <h3>Controls</h3>
+        <ul>
+          <li><b>I</b> → Forward</li>
+          <li><b>M</b> → Backward</li>
+          <li><b>J</b> → Left</li>
+          <li><b>L</b> → Right</li>
+          <li><b>K</b> → Stop</li>
+          <li><b>F / G</b> → Flash ON / OFF</li>
+          <li><b>W / Z</b> → Camera Tilt</li>
+          <li><b>A / S</b> → Camera Pan</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by Ahmed Abdelrazeq</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
