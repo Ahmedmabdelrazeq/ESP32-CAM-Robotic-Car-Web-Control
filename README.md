@@ -103,12 +103,10 @@ ESP32-CAM and the computer used to access the web interface must be on the **sam
 ---
 
 ## 📷 Demo / Screenshots
+![Web interface layout](Docs/Images/web_page_interface.png)
+![Hardware setup](Docs/Images/the_circuit_of_robot.png)
 
-You can add images here for clarity:
-
-- Docs/Images/web_page_interface.png – Web interface layout  
-- Docs/Images/the_circuit_of_robot.png – Hardware setup
-
+---
 
 ## 🔮 Future Improvements
 
