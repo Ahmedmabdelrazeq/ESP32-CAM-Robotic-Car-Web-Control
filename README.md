@@ -18,7 +18,7 @@ Although developed as an **academic project**, the system demonstrates embedded 
 
 ## 🤖 Mechanical & Actuation Details
 
-- **Motors:** 4 DC motors (driven by Arduino motor driver)  
+- **Motors:** 2 DC motors (driven by Arduino motor driver)  
 - **Servos:** 2 (Pan and Tilt for camera)  
 - **Camera:** ESP32-CAM module  
 - **Flash:** On-board LED for illumination  
@@ -103,8 +103,8 @@ ESP32-CAM and the computer used to access the web interface must be on the **sam
 ---
 
 ## 📷 Demo / Screenshots
-![final shape](Docs/Images/final.png)
-![Hardware setup](Docs/Images/the_circuit_of_robot.png)
+![Hardware setup](Docs/Images/final.png)
+![final shape](Docs/Images/web_page_interface.png)
 ![Hardware setup](Docs/Images/the_circuit_of_robot.png)
 
 ---
